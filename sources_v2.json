@@ -1,0 +1,90 @@
+{
+  "sources": [
+    {
+      "name": "Akwam",
+      "url": "https://akwam.to",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://akwam.in", "https://akw.net.co", "https://akwam.site"]
+    },
+    {
+      "name": "ArabSeed",
+      "url": "https://arabseed.show",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://eg1.arabseed.ink", "https://arabseed.art"]
+    },
+    {
+      "name": "MyCima",
+      "url": "https://wecima.cx",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://my-cima.com", "https://mycima.tube"]
+    },
+    {
+      "name": "EgyBest",
+      "url": "https://egybest.vip",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://egybest.mx", "https://egybest.ac"]
+    },
+    {
+      "name": "FaselHD",
+      "url": "https://www.faselhd.pro",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://faselhd.club"]
+    },
+    {
+      "name": "EgyDead",
+      "url": "https://egydead.fit",
+      "active": true,
+      "type": "universal",
+      "mirrors": ["https://egydead.vip", "https://egydead.fit"]
+    },
+    {
+      "name": "CimaLeek",
+      "url": "https://cimaleek.top",
+      "active": true,
+      "type": "universal"
+    }
+  ],
+  "categories": [
+    {
+      "name": "أفلام عربي",
+      "url": "https://akwam.in/movies?section=29",
+      "source": "Akwam"
+    },
+    {
+      "name": "أفلام أجنبي",
+      "url": "https://akwam.in/movies?section=30",
+      "source": "Akwam"
+    },
+    {
+      "name": "أفلام هندي",
+      "url": "https://akwam.in/movies?section=31",
+      "source": "Akwam"
+    },
+    {
+      "name": "أفلام تركي",
+      "url": "https://akwam.in/movies?section=32",
+      "source": "Akwam"
+    },
+    {
+      "name": "أفلام أنمي",
+      "url": "https://akwam.in/movies?category=30",
+      "source": "Akwam"
+    },
+    {
+      "name": "أحدث الإضافات",
+      "url": "https://akwam.in/recent",
+      "source": "Akwam"
+    }
+  ],
+  "config": {
+    "update_url": "https://raw.githubusercontent.com/community/arabflix/main/sources_v2.json",
+    "min_version": "2.5.0",
+    "ad_free": true,
+    "force_update": false
+  }
+}
