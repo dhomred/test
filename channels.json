@@ -1,0 +1,17 @@
+[
+  {
+    "name": "قنوات Bein Sports",
+    "url": "https://example.com/bein.m3u",
+    "category": "Sports"
+  },
+  {
+    "name": "قنوات MBC",
+    "url": "https://example.com/mbc.m3u",
+    "category": "Entertainment"
+  },
+  {
+    "name": "قنوات OSN",
+    "url": "https://example.com/osn.m3u",
+    "category": "Movies"
+  }
+]
