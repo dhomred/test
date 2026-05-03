@@ -1,0 +1,56 @@
+[
+  {
+    "source": "Akwam",
+    "pattern": "file\\s*:\\s*\"([^\"]+\\.m3u8[^\"]*)\"",
+    "selector": ".ep-item a, .episode a, .movie-card",
+    "priority": 1,
+    "selectors": {
+      "plot": ".text-content, .entry-content",
+      "year": "span.year, .info .year",
+      "rating": ".ql, .movie-rating",
+      "items": ".ep-item a, .episode a, .movie-card"
+    }
+  },
+  {
+    "source": "EgyBest",
+    "pattern": "source:\\s*'(https?://[^']+)'",
+    "selector": ".episodes-list a, .Movies--Seasons--Episodes a, .item",
+    "priority": 1,
+    "selectors": {
+      "plot": ".story, .description, .movie-story",
+      "year": ".year, .movie-year",
+      "rating": ".rating, .imdb-rating",
+      "items": ".episodes-list a, .Movies--Seasons--Episodes a, .item"
+    }
+  },
+  {
+    "source": "MyCima",
+    "pattern": "\"url\"\\s*:\\s*\"([^\"]+\\.m3u8[^\"]*)\"",
+    "selector": ".Episodes--Seasons--List a, .episode-item a, .GridItem",
+    "priority": 1,
+    "selectors": {
+      "plot": ".description, .plot",
+      "year": ".year",
+      "rating": ".imdb",
+      "items": ".Episodes--Seasons--List a, .episode-item a, .GridItem"
+    }
+  },
+  {
+    "source": "ArabSeed",
+    "pattern": "https?://[^\"\\s]+\\.(m3u8|mp4|mkv)",
+    "selector": ".item, article, .movie-card",
+    "priority": 1,
+    "selectors": {
+      "items": ".item, article, .movie-card"
+    }
+  },
+  {
+    "source": "FaselHD",
+    "pattern": "https?://[^\"\\s]+\\.(m3u8|mp4|mkv)",
+    "selector": ".item, article, .movie-card",
+    "priority": 1,
+    "selectors": {
+      "items": ".item, article, .movie-card"
+    }
+  }
+]

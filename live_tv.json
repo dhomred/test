@@ -1,0 +1,23 @@
+[
+  {
+    "channelName": "beIN Sports 1",
+    "logo": "https://example.com/logos/bein1.png",
+    "streamUrl": "https://example.com/live/bein1.m3u8",
+    "category": "Sports",
+    "language": "Arabic"
+  },
+  {
+    "channelName": "Al Jazeera",
+    "logo": "https://example.com/logos/aljazeera.png",
+    "streamUrl": "https://example.com/live/aljazeera.m3u8",
+    "category": "News",
+    "language": "Arabic"
+  },
+  {
+    "channelName": "MBC 1",
+    "logo": "https://example.com/logos/mbc1.png",
+    "streamUrl": "https://example.com/live/mbc1.m3u8",
+    "category": "Entertainment",
+    "language": "Arabic"
+  }
+]

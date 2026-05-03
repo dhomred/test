@@ -1,0 +1,13 @@
+{
+  "lowDeviceBuffer": 15000,
+  "highDeviceBuffer": 60000,
+  "supportedFormats": [
+    "HLS",
+    "MP4",
+    "MKV",
+    "WebM",
+    "AVI",
+    "MOV"
+  ],
+  "maxBitrate": 5000000
+}

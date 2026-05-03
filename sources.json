@@ -1,9 +1,83 @@
-{
-  "Akwam": "https://akwam.in",
-  "EgyBest": "https://egybest.mx",
-  "MyCima": "https://my-cima.com",
-  "ArabSeed": "https://eg1.arabseed.ink",
-  "CimaLeek": "https://cimaleek.top",
-  "FaselHD": "https://www.faselhd.pro",
-  "EgyDead": "https://egydead.mx"
-}
+[
+  {
+    "name": "Akwam",
+    "baseUrl": "https://akw.net.co",
+    "searchPath": "/search?q=",
+    "mirrors": [
+      "https://akwams.net",
+      "https://akw.net.co",
+      "https://ak.sv"
+    ],
+    "homeSections": {
+      "أحدث الأفلام": "/movies",
+      "أحدث المسلسلات": "/series",
+      "الانمي": "/anime",
+      "الاجنبي": "/movies?section=30",
+      "عربي": "/movies?section=29"
+    },
+    "isActive": true
+  },
+  {
+    "name": "EgyBest",
+    "baseUrl": "https://egybest.mx",
+    "searchPath": "/explore?q=",
+    "mirrors": [
+      "https://egybest.mx",
+      "https://egytbest.cam",
+      "https://egybest.ac"
+    ],
+    "homeSections": {
+      "أحدث الافلام": "/movies",
+      "تريند": "/trending",
+      "مسلسلات": "/series",
+      "انمي": "/anime"
+    },
+    "isActive": true
+  },
+  {
+    "name": "MyCima",
+    "baseUrl": "https://wecima.show",
+    "searchPath": "/search?q=",
+    "mirrors": [
+      "https://wecima.cx",
+      "https://mycima.tube",
+      "https://wecima.show"
+    ],
+    "homeSections": {
+      "الافلام": "/movies",
+      "المسلسلات": "/series",
+      "الانمي": "/anime"
+    },
+    "isActive": true
+  },
+  {
+    "name": "ArabSeed",
+    "baseUrl": "https://arabseed.ink",
+    "searchPath": "/?s=",
+    "mirrors": [
+      "https://arabseed.show",
+      "https://eg1.arabseed.ink",
+      "https://arabseed.ink"
+    ],
+    "homeSections": {
+      "أفلام": "/movies",
+      "مسلسلات": "/series"
+    },
+    "isActive": true
+  },
+  {
+    "name": "FaselHD",
+    "baseUrl": "https://www.faselhd.pro",
+    "searchPath": "/?s=",
+    "mirrors": [
+      "https://faselhd.club",
+      "https://faselhd.pro"
+    ],
+    "homeSections": {
+      "أفلام": "/movies",
+      "مسلسلات": "/series",
+      "الأكثر رواجاً": "/most_recent"
+    },
+    "isActive": true
+  }
+]
