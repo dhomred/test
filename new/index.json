@@ -1,1 +1,74 @@
-
+[
+  {
+    "domain": "https://asd.pics",
+    "version": 1,
+    "site_type": "movies_series",
+    "requires_js": true,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Referer": "https://asd.pics"
+    },
+    "pages": {
+      "home": {
+        "url_pattern": "https://asd.pics",
+        "movie_list_selector": "li.box__xs__2",
+        "title_selector": "h3",
+        "image_selector": "img",
+        "detail_link_selector": "a.movie__block"
+      },
+      "category": {
+        "Home": "https://asd.pics",
+        "Movies": "https://asd.pics/movies-3/",
+        "Series": "https://asd.pics/series-3/",
+        "ArabicSeries": "https://asd.pics/category/arabic-series-12/",
+        "TurkishSeries": "https://asd.pics/category/turkish-series-2/",
+        "ForeignSeries": "https://asd.pics/category/foreign-series-5/",
+        "AnimeSeries": "https://asd.pics/category/cartoon-series/"
+      },
+      "detail": {
+        "url_pattern": "/",
+        "title_selector": "h1",
+        "story_selector": [".story", ".description", ".plot"],
+        "servers": [
+          {
+            "name": "Main Server",
+            "selector": "iframe",
+            "attribute": "src",
+            "type": "embed"
+          }
+        ]
+      },
+      "watch": {
+        "url_pattern": "/watch/",
+        "seasons_selector": "#seasons__list ul li",
+        "season_active_class": "selected",
+        "season_term_attr": "data-term",
+        "episodes_container": ".episodes__list",
+        "episode_item_selector": "li",
+        "episode_link_selector": "a",
+        "episode_number_selector": ".epi__num b",
+        "servers_container": ".watch__servers__list",
+        "quality_selector": ".quality__swither ul.qualities__list li",
+        "quality_active_class": "active",
+        "quality_attr": "data-quality",
+        "server_list_selector": ".servers__list ul",
+        "server_item_selector": "li",
+        "server_active_class": "active",
+        "server_attrs": {
+          "post_id": "data-post",
+          "server_id": "data-server",
+          "quality": "data-qu",
+          "link": "data-link"
+        },
+        "player_iframe_selector": ".player__iframe iframe",
+        "player_src_attr": "src",
+        "ajax_endpoints": {
+          "get_servers_by_quality": "/get__quality__servers",
+          "get_season_episodes": "/season__episodes",
+          "get_watch_server": "/get__watch__server"
+        },
+        "csrf_token_selector": "input[name='csrf_token']"
+      }
+    }
+  }
+]
